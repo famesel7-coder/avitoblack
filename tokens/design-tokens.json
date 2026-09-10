@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "name": "Avito Black",
+    "source": "ШАБЛОН презентаци Avito.pptx",
+    "source_sha256": "dd1e84765a293e88ccddfc4f18c7975b7a7c9750482f314423d5b04a45828093",
+    "analyzed_slide_count": 95,
+    "production_slide_count": 80,
+    "reference_coordinate_system_px": [960, 540]
+  },
+  "canvas": {
+    "aspect_ratio": "16:9",
+    "width_in": 10,
+    "height_in": 5.625,
+    "delivery_px": [1920, 1080],
+    "background": "#000000"
+  },
+  "colors": {
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "gray_light": "#D9D9D9",
+    "gray_muted": "#999999",
+    "gray_grid": "#434343",
+    "avito_blue": "#00AAFF",
+    "avito_red": "#FF3F53",
+    "avito_green": "#00E160",
+    "avito_purple": "#965EEB"
+  },
+  "typography": {
+    "primary_family": "Montserrat",
+    "secondary_dense_family": "Manrope",
+    "title_cover": {"family": "Montserrat Medium", "size_pt": 40},
+    "title_section": {"family": "Montserrat SemiBold", "size_pt": 40},
+    "title_slide": {"family": "Montserrat SemiBold", "size_pt": 24},
+    "lead": {"family": "Montserrat", "size_pt": 15},
+    "body": {"family": "Montserrat", "size_pt": 15},
+    "column_title": {"family": "Montserrat", "size_pt": 12},
+    "caption": {"family": "Montserrat Medium", "size_pt": 9},
+    "footer": {"family": "Montserrat Medium", "size_pt": 9},
+    "table": {"family": "Manrope", "size_pt": 8},
+    "table_header": {"family": "Manrope SemiBold", "size_pt": 8},
+    "metric": {"family": "Montserrat", "size_pt_range": [40, 70]},
+    "line_spacing_percent_range": [100, 120]
+  },
+  "layout_px_960x540": {
+    "safe_area": {"left": 48, "right": 48, "top": 40, "bottom": 38},
+    "standard_title": {"x": 44.06, "y": 39.35, "w": 864.76, "h": 46.05},
+    "two_line_title_width_range": [441, 656],
+    "two_line_title_height": 74.68,
+    "logo_top_right": {"x": 843.42, "y": 47.51, "w": 65.4, "h": 18.05},
+    "footer_left": {"x": 48, "y": 502, "w": 357, "h": 18},
+    "four_column_x": [48, 267, 486, 705],
+    "four_column_width": 205.32,
+    "five_step_x": [48, 223, 398.5, 573.5, 749]
+  },
+  "geometry": {
+    "line_width_pt_range": [0.75, 1.5],
+    "preferred_shapes": ["circle", "capsule", "rounded_rectangle", "straight_line"],
+    "shadows": false,
+    "gradients": false,
+    "outer_frame": false
+  },
+  "content": {
+    "default_alignment": "left",
+    "center_alignment_for": ["section_divider", "single_question", "single_fact", "closing"],
+    "recommended_bullet_count_max": 4,
+    "recommended_diagram_nodes_max": 5,
+    "recommended_accent_colors_per_slide": 1,
+    "max_accent_colors_when_encoding_categories": 4,
+    "default_visual_count": 1
+  },
+  "instruction_slides_excluded": [1, 5, 12, 20, 23, 28, 32, 40, 52, 57, 62, 71, 74, 81, 85]
+}
